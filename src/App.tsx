@@ -1,7 +1,7 @@
 import { ButtonMobile } from "@alfalab/core-components/button/mobile";
 
 import { Typography } from "@alfalab/core-components/typography";
-import image_growthhack from "./assets/image_growthhack.png";
+import cat from "./assets/cat.png";
 import { LS, LSKeys } from "./ls";
 import { appSt } from "./style.css";
 import { Gap } from "@alfalab/core-components/gap";
@@ -52,7 +52,16 @@ export const App = () => {
 
           <Gap size={24} />
 
-          <img src={image_growthhack} alt="Картинка АИ" width={80} />
+          <img
+              src={cat}
+              alt="Картинка АИ"
+              width={80}
+              style={{
+                backgroundColor: "#D6E6FF",
+                borderRadius: "100%",
+                padding: "5px",
+              }}
+          />
         </div>
 
         <Gap size={32} />
